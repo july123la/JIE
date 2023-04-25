@@ -15,10 +15,14 @@ def game():
         if operation == 3:
             result = multiply(num_1, num_2)
         if operation == 4:
-            result = divide(num_1, num_2)
+            if divide(num_1,num_2)!="NO":       
+                result = divide(num_1, num_2)
+            else:
+                result="NO"
         if result == answer:
             score += 1
             print('Correct!!')
+        elif result=="NO":
         else:
             print('Incorrect')
             break
