@@ -23,6 +23,7 @@ def game():
             score += 1
             print('Correct!!')
         elif result=="NO":
+            print("La división hecha por 0 no está definida, prueba con otro valor")
         else:
             print('Incorrect')
             break
