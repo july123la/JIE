@@ -15,5 +15,6 @@ def game():
         else:
             print('Incorrect')
             break
-        print(f'======== Game Over ========\nYou score is {score}\nKeep going!')
+    print(f'======== Game Over ========\nYou score is {score}\nKeep going!')
 game()
+
