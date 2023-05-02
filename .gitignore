@@ -3,7 +3,8 @@
 
 # Bundler
 bin/*
+md/*
 .bundle/*
-
+.alcache/
 .kitchen/
 .kitchen.local.yml
