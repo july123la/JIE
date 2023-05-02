@@ -3,6 +3,7 @@
 
 # Bundler
 bin/*
+md/*
 .bundle/*
 
 .kitchen/
